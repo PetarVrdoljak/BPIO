@@ -23,3 +23,4 @@ php artisan make:model ime_modela -c -r
 php artisan make:model --help
 
 tipovi podataka integer, string, id, foreignid
+https://getbootstrap.com/docs/5.1/components
