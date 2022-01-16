@@ -1,0 +1,25 @@
+php artisan serve //Pokretanje artisana.
+// env. najvažniji file, 
+APP_NAME=Passports
+APP_ENV=local
+APP_KEY=base64:FULLRhHWDcbaN7jgmXBNJMtGnESoVCgXSfO+VpelIu0=
+APP_DEBUG=true
+APP_URL=http://localhost
+
+LOG_CHANNEL=stack
+LOG_DEPRECATIONS_CHANNEL=null
+LOG_LEVEL=debug
+
+DB_CONNECTION=mysql
+DB_HOST=bp.vvg.hr
+DB_PORT=5432
+DB_DATABASE=student77210536
+DB_USERNAME=student77210536
+DB_PASSWORD=vvglozinka0155
+
+php artisan migrate:fresh //izvšenje migracije
+php artisan make:create_ime_tablice // naredba za pravljenje tablice
+php artisan make:model ime_modela -c -r
+php artisan make:model --help
+
+tipovi podataka integer, string, id, foreignid
